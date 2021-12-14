@@ -1,12 +1,12 @@
 # Lane_Lines_and_Car_Detection
-
+## The project is done on a very challenging Video.
 ## Faster R-CNN
 ![Faster RCNN](https://user-images.githubusercontent.com/82511782/146067210-19adab46-54dd-4e83-bb5b-de7daab5e700.png)
 
 The architecture of Faster R-CNN consists of 2 modules : 
 
-1. RPN, for Generating region proposals
-2.Fast R-CNN for detecting objects in proposed regions.
+1)RPN,for Generating region proposals.
+2)Fast R-CNN for detecting objects in proposed regions.
 
 The input images are HxWxDepth Tensors which are passed to CNN up until intermediate layer. This returns Convolutional Feature Map of the image.
 
@@ -78,3 +78,4 @@ Inspiration, code snippets, etc.
 * [Image Augmentation](https://github.com/aleju/imgaug)
 * [Udacity Self Driving Cars Course](https://www.udacity.com/course/intro-to-self-driving-cars--nd113)
 * [Car Dataset](https://www.kaggle.com/sshikamaru/car-object-detection)
+* [Original Video from Youtube](https://www.youtube.com/watch?v=B8Yyf6WKgaM)
