@@ -41,7 +41,7 @@ The idea of birds Eye View is to warp the image, to see the image from above.bec
 
 The idea of threhsolding is to process the image such a way that lane lines are seperated from road and are perfectly visible. I have applied different image thresholding method, starting from sobelx and sobely to magnitude threshold and HLS and ect… 
 
-Finaly, after perserving different threhsolidng methods the combination of X and Y sobels are perfect for our video.
+Finaly, after trying different threhsolidng methods the combination of X and Y sobels are perfect for our video.
 
 One Setback is that in the video, lane lines and other white lines are very close to each other and on some frames it is very difficult to find which is real lane line and which is not. 
 ![thresholded](https://user-images.githubusercontent.com/82511782/146067746-4337dd64-0507-43f7-ac8c-52c07f9274fc.png)
